@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="310" viewBox="0 0 1000 310" role="img" aria-labelledby="title desc">
+  <title id="title">Andrii Gnilitskii — Python backend and full-stack</title>
+  <desc id="desc">A purple, pink, and cyan terminal-inspired banner. A sample API contract comparison reports eight breaking changes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#10132c" />
+      <stop offset="1" stop-color="#17102c" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0" stop-color="#8b5cf6" />
+      <stop offset="0.5" stop-color="#f472b6" />
+      <stop offset="1" stop-color="#22d3ee" />
+    </linearGradient>
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M 26 0 L 0 0 0 26" fill="none" stroke="#8b5cf6" stroke-opacity="0.08" stroke-width="1" />
+    </pattern>
+    <clipPath id="bounds"><rect width="1000" height="310" rx="20" /></clipPath>
+  </defs>
+  <g clip-path="url(#bounds)">
+    <rect width="1000" height="310" rx="20" fill="url(#bg)" />
+    <rect width="1000" height="310" fill="url(#grid)" />
+    <circle cx="480" cy="285" r="165" fill="#8b5cf6" opacity="0.10" />
+    <circle cx="995" cy="10" r="155" fill="#22d3ee" opacity="0.07" />
+    <circle cx="84" cy="-60" r="140" fill="#f472b6" opacity="0.08" />
+    <rect x="40" y="36" width="103" height="25" rx="6" fill="#29224b" />
+    <text x="53" y="53" fill="#c4b5fd" font-size="13" font-family="DejaVu Sans Mono, monospace">$ whoami</text>
+    <text x="38" y="119" fill="#f4f3ff" font-size="48" font-weight="700" font-family="DejaVu Sans, sans-serif">Andrii</text>
+    <text x="38" y="173" fill="#f4f3ff" font-size="48" font-weight="700" font-family="DejaVu Sans, sans-serif">Gnilitskii<tspan fill="#f472b6">_</tspan></text>
+    <rect x="40" y="198" width="78" height="4" rx="2" fill="url(#accent)" />
+    <text x="40" y="236" fill="#a5b4fc" font-size="19" font-family="DejaVu Sans, sans-serif">Python backend / full-stack</text>
+    <text x="40" y="265" fill="#8990b3" font-size="13" letter-spacing="2" font-family="DejaVu Sans Mono, monospace">APIs · DATABASES · WEB PRODUCTS</text>
+    <rect x="519" y="40" width="439" height="237" rx="13" fill="#0d1021" stroke="#8b5cf6" stroke-opacity="0.38" />
+    <path d="M532 40h413a13 13 0 0 1 13 13v23H519V53a13 13 0 0 1 13-13z" fill="#1e1c37" />
+    <circle cx="540" cy="58" r="5" fill="#fb7185" />
+    <circle cx="558" cy="58" r="5" fill="#fbbf24" />
+    <circle cx="576" cy="58" r="5" fill="#34d399" />
+    <text x="672" y="63" fill="#8f94b3" font-size="12" font-family="DejaVu Sans Mono, monospace">contract_diff</text>
+    <g font-family="DejaVu Sans Mono, monospace" font-size="15">
+      <text x="541" y="112" fill="#22d3ee">$ python -m contract_diff</text>
+      <text x="559" y="138" fill="#a3aacb">examples/baseline.json</text>
+      <text x="559" y="162" fill="#a3aacb">examples/breaking.json</text>
+      <text x="541" y="205" fill="#f472b6">8 breaking, 0 review</text>
+      <text x="541" y="244" fill="#34d399">→ caught before the merge</text>
+    </g>
+    <rect x="0" y="306" width="1000" height="4" fill="url(#accent)" />
+    <path d="M450 46h15m-7.5-7.5v15M460 230h12m-6-6v12M977 180h10m-5-5v10" stroke="#22d3ee" stroke-opacity="0.6" stroke-width="1.5" />
+    <circle cx="492" cy="197" r="3" fill="#f472b6" />
+    <circle cx="476" cy="76" r="2" fill="#8b5cf6" />
+  </g>
+</svg>
