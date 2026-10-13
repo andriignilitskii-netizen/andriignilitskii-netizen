@@ -25,6 +25,8 @@ I like projects where I can follow a problem all the way through: the API contra
 | 🐍 [api-contract-diff](https://github.com/andriignilitskii-netizen/api-contract-diff) | An offline Python CLI for checking OpenAPI changes. Separate rules for requests and responses, local refs, and reports for CI. [Start with the example report](https://github.com/andriignilitskii-netizen/api-contract-diff/blob/main/examples/report.md). |
 | ⚡ [vue-examples](https://github.com/andriignilitskii-netizen/vue-examples) | Vue/Nuxt snippets for SSR pages, structured data, responsive images, and API calls. [Read the integration notes](https://github.com/andriignilitskii-netizen/vue-examples#integration-notes). |
 
+[![API contract tests](https://github.com/andriignilitskii-netizen/api-contract-diff/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/andriignilitskii-netizen/api-contract-diff/actions/workflows/ci.yml)
+
 Small repos, specific problems. The useful bits are in the code, the tests, and the notes about what each example leaves out.
 
 <p align="center">
